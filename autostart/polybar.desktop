@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Polybar
+Comment=Polybar with Autohide Daemon
+Exec=/home/ahammed/.config/polybar/launch.sh
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+StartupNotify=false
+Terminal=false

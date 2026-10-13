@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Picom Compositor
+Comment=Window Compositor for Opacity and Fading
+Exec=picom -b --config /home/ahammed/.config/picom/picom.conf
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+StartupNotify=false
+Terminal=false
