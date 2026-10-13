@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Set Default External Mic
+Comment=Lock default audio input to USB microphone
+Exec=sh -c "sleep 2 && pactl set-default-source alsa_input.usb-USB_2.0_USB_Audio_Device_20210726905926-00.mono-fallback"
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+StartupNotify=false
+Terminal=false

@@ -1,8 +1,8 @@
 [Desktop Entry]
 Type=Application
 Name=Polybar
-Comment=Polybar with Autohide Daemon
-Exec=/home/ahammed/.config/polybar/launch.sh
+Comment=Polybar Launcher with Session Delay
+Exec=sh -c "sleep 2 && /home/ahammed/.config/polybar/launch.sh"
 Hidden=false
 NoDisplay=false
 X-GNOME-Autostart-enabled=true

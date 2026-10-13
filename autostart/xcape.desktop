@@ -1,8 +1,8 @@
 [Desktop Entry]
 Type=Application
 Name=Xcape Super Key
-Comment=Map Super tap to Super+Space for Rofi
-Exec=sh -c "sleep 1.5 && killall -q xcape; xcape -t 200 -e 'Super_L=Super_L|space'"
+Comment=Map Super tap to custom shortcut for Rofi
+Exec=sh -c "sleep 2.5 && killall -q xcape; xcape -t 200 -e 'Super_L=Control_L|Alt_L|F12'"
 Hidden=false
 NoDisplay=false
 X-GNOME-Autostart-enabled=true
